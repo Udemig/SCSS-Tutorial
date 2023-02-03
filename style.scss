@@ -1,0 +1,67 @@
+@import "navmenu";
+@import 'sidebar';
+
+body{
+    background-color: $primary-color;
+    color: $text-color;
+}
+
+.btn{
+    margin: 10px+4;
+    padding: 10px-2;
+    background-color: transparent;
+    border-radius: $border-radius;
+    font-size: 2rem*2;
+    border: 2px/2 solid burlywood;
+}
+
+@mixin border($type, $color, $width){
+    border: $color $type $width;
+
+}
+
+
+main{
+    background-color: $secondary-color;
+    @include border(solid,green ,5px );
+    button{
+        @extend .btn;
+        &:hover{
+            background-color: aquamarine;
+            transition: 1s;
+        }
+    }
+}
+$sayac: 5;
+@for $i from 1 through $sayac{
+    .cocuk-#{$i}{
+        background-color: aquamarine;
+        color: red;
+        margin: 10px;
+        padding: 10px;
+
+        @if ($i == 1){
+            font-size: 20px;
+            font-weight: bold;
+        } @else if ($i == 2){
+            color: blue;
+        } @else{
+            box-shadow: 0 0 10px yellow;
+        }
+    }
+}
+
+$yeni-sayac: 5;
+
+@while $yeni-sayac > 0{
+    .cocuk-#{$yeni-sayac}{ 
+        text-align: center;
+    }
+    $yeni-sayac: $yeni-sayac - 1
+}
+
+@each $number in 1,2, 3{
+    .cocuk-#{$number}{ 
+        text-align: right;
+    }
+}

@@ -1,0 +1,116 @@
+nav {
+  background-color: aqua;
+  padding: 10px;
+}
+nav ul {
+  background-color: antiquewhite;
+  border-radius: 4px;
+}
+nav ul li {
+  background-color: aquamarine;
+  border-radius: 4px;
+  margin: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+body {
+  background-color: crimson;
+  color: #fff;
+}
+
+.btn, main button {
+  margin: 14px;
+  padding: 8px;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 4rem;
+  border: 2px/2 solid burlywood;
+}
+
+main {
+  background-color: rgba(10, 180, 222, 0.446);
+  border: green solid 5px;
+}
+main button:hover {
+  background-color: aquamarine;
+  transition: 1s;
+}
+
+.cocuk-1 {
+  background-color: aquamarine;
+  color: red;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cocuk-2 {
+  background-color: aquamarine;
+  color: red;
+  margin: 10px;
+  padding: 10px;
+  color: blue;
+}
+
+.cocuk-3 {
+  background-color: aquamarine;
+  color: red;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px yellow;
+}
+
+.cocuk-4 {
+  background-color: aquamarine;
+  color: red;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px yellow;
+}
+
+.cocuk-5 {
+  background-color: aquamarine;
+  color: red;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px yellow;
+}
+
+.cocuk-5 {
+  text-align: center;
+}
+
+.cocuk-4 {
+  text-align: center;
+}
+
+.cocuk-3 {
+  text-align: center;
+}
+
+.cocuk-2 {
+  text-align: center;
+}
+
+.cocuk-1 {
+  text-align: center;
+}
+
+.cocuk-1 {
+  text-align: right;
+}
+
+.cocuk-2 {
+  text-align: right;
+}
+
+.cocuk-3 {
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */
